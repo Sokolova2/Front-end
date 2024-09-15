@@ -1,87 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <title>Front-end | Profile</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .bg-1 {
+                background-color: #1abc9c;
+                color: #ffffff;
+            }
+            .bg-2 {
+                background-color: #474e5d;
+                color: #ffffff;
+            }
+            .bg-3 {
+                background-color: #ffffff;
+                color: #555555;
+            }
+            .container-fluid {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid bg-1 text-center">
+            <img
+                src="./lab1/img/photo_2024-09-02_15-50-12.jpg"
+                class="img-circle"
+                alt="Фото студентки групи 6.1212-2пі Соколова Каріна"
+                title="Ваше реальне фото (обов'язково)"
+                width="320"
+                height="400"
+            />
+            <h3>Соколова Каріна</h3>
+            <h3>Web-програмування(frontend)</h3>
+        </div>
 
-  <title>Front-end | Profile</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-  .bg-1 { 
-    background-color: #1abc9c;
-    color: #ffffff;
-  }
-  .bg-2 { 
-    background-color: #474e5d;
-    color: #ffffff;
-  }
-  .bg-3 { 
-    background-color: #ffffff;
-    color: #555555;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  </style>
-</head>
-<body>
+        <div class="container-fluid bg-2 text-center">
+            <h4>121 Інженерія програмного забезпечення</h4>
+            <h4>3</h4>
+            <h4>6.1212-2пі</h4>
+            <h4>24</h4>
+        </div>
 
-<div class="container-fluid bg-1 text-center">
-  <img src="./lab1/img/photo_2024-09-02_15-50-12.jpg" class="img-circle" alt="Фото студентки групи 6.1212-2пі Соколова Каріна" title="Ваше реальне фото (обов'язково)" width="320" height="400">
-  <h3>Соколова Каріна</h3>
-  <h3>Web-програмування(frontend)</h3>
-</div>
-
-<div class="container-fluid bg-2 text-center">
-  <h4>121 Інженерія програмного забезпечення</h4>
-  <h4>3</h4>
-  <h4>6.1212-2пі</h4>
-  <h4>24</h4>
-</div>
-
-<div class="container-fluid bg-3 text-center">
-  <h3>Мої роботи</h3>
-  <div class="row gx-5">
-  	<div class="col-sm-4">
-    	<article class="well">
-		<h4>Лабораторна робота №1</h4> 
-        <p>Короткий опис завдання</p>
-        <p><a href="https://github.com/Sokolova2/Front-end/tree/main/lab1">Посилання на репозиторій</a></p> 
-        </article>
-  	</div>
-    <div class="col-sm-4">
-    	<article class="well">
-		<h4>Лабораторна робота №2</h4> 
-        <p>Короткий опис завдання</p>
-        <p><a href="https://github.com/Sokolova2/Front-end/tree/main/lab2">Посилання на репозиторій</a></p> 
-        </article>
-  	</div>
-    <div class="col-sm-4">
-    	<article class="well">
-		<h4>Лабораторна робота №3</h4> 
-        <p>Короткий опис завдання</p>
-        <p><a href="https://github.com/Sokolova2/Front-end/tree/main/lab3">Посилання на репозиторій</a></p> 
-        </article>
-  	</div>
-    <div class="col-sm-4"></div>
-    	<article class="well">
-		<h4>Лабораторна робота №4</h4> 
-        <p>Короткий опис завдання</p>
-        <p><a href="https://sokolova2.github.io/Front-end/">Посилання на виконану роботу</a></p> 
-        </article>
-  	</div>
-    <div class="col-sm-4"></div>
-    	<article class="well">
-		<h4>Лабораторна робота №5</h4> 
-        <p>Короткий опис завдання</p>
-        <p><a href="https://github.com/Sokolova2/Front-end/tree/main/lab5">Посилання на виконану роботу</a></p> 
-        </article>
-  	</div>
-  </div>
-</div>
-
-</body>
+        <div class="container-fluid bg-3 text-center">
+            <h3>Мої роботи</h3>
+            <div class="row gx-5">
+                <div class="col-sm-4">
+                    <article class="well">
+                        <h4>Лабораторна робота №1</h4>
+                        <p>Короткий опис завдання</p>
+                        <p>
+                            <a
+                                href="https://github.com/Sokolova2/Front-end/tree/main/lab1"
+                                >Посилання на репозиторій</a
+                            >
+                        </p>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="well">
+                        <h4>Лабораторна робота №2</h4>
+                        <p>Короткий опис завдання</p>
+                        <p>
+                            <a
+                                href="https://github.com/Sokolova2/Front-end/tree/main/lab2"
+                                >Посилання на репозиторій</a
+                            >
+                        </p>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="well">
+                        <h4>Лабораторна робота №3</h4>
+                        <p>Короткий опис завдання</p>
+                        <p>
+                            <a
+                                href="https://github.com/Sokolova2/Front-end/tree/main/lab3"
+                                >Посилання на репозиторій</a
+                            >
+                        </p>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="well">
+                        <h4>Лабораторна робота №4</h4>
+                        <p>Короткий опис завдання</p>
+                        <p>
+                            <a
+                                href="https://sokolova2.github.io/Front-end/"
+                                >Посилання на репозиторій</a
+                            >
+                        </p>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="well">
+                        <h4>Лабораторна робота №5</h4>
+                        <p>Короткий опис завдання</p>
+                        <p>
+                            <a
+                                href="https://github.com/Sokolova2/Front-end/tree/main/lab5"
+                                >Посилання на репозиторій</a
+                            >
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
