@@ -61,7 +61,12 @@ module.exports = {
         }),
         new CopyWebpackPlugin({
             patterns: [
-                { from: 'src/assets/images', to: 'images' },
+                { from: 'src/assets/images/img', to: 'assets/images/img' },
+            ],
+        }),
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: 'src/css', to: 'css' },
             ],
         }),
         new MiniCssExtractPlugin({
