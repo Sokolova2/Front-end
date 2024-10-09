@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 1200px) {
   body {
     width: 90%;
@@ -139,7 +140,8 @@ footer {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .ie-warning {
+  .header::before {
+    content: "Ви використовуєте застарілий браузер. Будь ласка, оновіть його.";
     display: block;
     background-color: #ffcccc;
     color: #000;
@@ -147,7 +149,4 @@ footer {
     padding: 10px;
     font-size: 18px;
   }
-}
-.ie-warning {
-  display: none;
 }/*# sourceMappingURL=style.css.map */
