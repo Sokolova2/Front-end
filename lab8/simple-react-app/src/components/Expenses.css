@@ -1,0 +1,13 @@
+.expenses{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem;
+    background-color: rgba(117, 118, 118, 0.46);
+    border-radius: 12px;
+    margin: 2rem auto;
+    width: 50%;
+    
+}
+
+

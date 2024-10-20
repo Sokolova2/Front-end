@@ -1,0 +1,15 @@
+.card{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+}
+.cardexpense-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(74, 73, 73);
+    padding: 10px;
+    border-radius: 10px;
+    height: 150px;
+    margin: 10px;
+}
