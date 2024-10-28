@@ -1,0 +1,22 @@
+div{
+    background-color: #3F3F3F;
+}
+
+.container {
+    margin-top: 1rem; 
+    padding: 1rem; 
+}
+
+.container_expense{
+    background-color: #1F1F1F;
+    padding: 5px; 
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem auto;
+    width: 50rem;
+    max-width: 95%;
+    text-align: end;
+}
+
+

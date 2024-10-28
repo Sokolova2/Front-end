@@ -1,0 +1,66 @@
+.newExpenseButton{
+    background-color: #A892EE;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 15px;
+}
+
+.buttonAddExpense{
+    color: white;
+    font-size: 16px;
+    background-color: #40005d;
+    border-radius: 12px;
+    padding: 1.2rem;
+    width: 12.5rem;
+    margin-left: 1rem;
+}
+
+.button-btn{
+    width: 8rem;
+}
+
+.newExpense{
+    display: flex;
+    flex-direction: column;
+    background-color: #A892EE;
+}
+
+.newExpenseInputs {
+    display: flex;
+    color: #00005C;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    background-color: #A892EE;
+}
+
+.newExpenseInput {
+    background-color: #A892EE;
+    text-align: left;
+}
+
+.newExpenseActions{
+    background-color: #A892EE;
+    margin: 0.5rem;
+    text-align: end;
+}
+
+.newExpenseDate {
+    color: #00005C;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #A892EE;
+    text-align: left;
+}
+
+input{
+    display: flex;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+}
